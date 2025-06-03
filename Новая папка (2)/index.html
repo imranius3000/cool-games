@@ -1,0 +1,171 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Крутые игры на телефон</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .category {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    background: white;
+    padding: 15px 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+  }
+  .category h2 {
+    margin: 0 0 10px 0;
+  }
+  .toggle-btn {
+    background: #007bff;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+  }
+  .toggle-btn:hover {
+    background: #0056b3;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<h1>Крутые игры на телефон</h1>
+
+<div class="category">
+  <h2>Экшн / Шутеры</h2>
+  <button class="toggle-btn" data-target="action-table">Показать</button>
+  <table id="action-table" class="hidden">
+    <thead>
+      <tr><th>#</th><th>Игра</th><th>Описание</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Call of Duty: Mobile</td><td>Шутер с мультиплеером и королевской битвой</td></tr>
+      <tr><td>2</td><td>PUBG Mobile</td><td>Королевская битва с 100 игроками</td></tr>
+      <tr><td>3</td><td>Genshin Impact</td><td>Приключенческая RPG с открытым миром</td></tr>
+      <tr><td>4</td><td>Shadowgun Legends</td><td>Научно-фантастический шутер с коопом</td></tr>
+      <tr><td>5</td><td>Modern Combat 5</td><td>Классический мобильный шутер</td></tr>
+      <tr><td>6</td><td>Dead Trigger 2</td><td>Зомби-шутер с кучей миссий</td></tr>
+      <tr><td>7</td><td>Critical Ops</td><td>Мобильный тактический шутер</td></tr>
+      <tr><td>8</td><td>Fortnite</td><td>Королевская битва с яркой графикой</td></tr>
+      <tr><td>9</td><td>Into the Dead 2</td><td>Бегай и стреляй по зомби</td></tr>
+      <tr><td>10</td><td>Battlelands Royale</td><td>Минималистичная королевская битва</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="category">
+  <h2>Стратегии</h2>
+  <button class="toggle-btn" data-target="strategy-table">Показать</button>
+  <table id="strategy-table" class="hidden">
+    <thead>
+      <tr><th>#</th><th>Игра</th><th>Описание</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Clash Royale</td><td>Карточная стратегия с боями 1 на 1</td></tr>
+      <tr><td>2</td><td>Plague Inc.</td><td>Стратегия по распространению вируса</td></tr>
+      <tr><td>3</td><td>Boom Beach</td><td>Строительство базы и битвы</td></tr>
+      <tr><td>4</td><td>Clash of Clans</td><td>Строительство деревни и сражения</td></tr>
+      <tr><td>5</td><td>Kingdom Rush</td><td>Башенная защита с фэнтези</td></tr>
+      <tr><td>6</td><td>Chess.com</td><td>Онлайн шахматы</td></tr>
+      <tr><td>7</td><td>Hearthstone</td><td>Карточная игра по миру Warcraft</td></tr>
+      <tr><td>8</td><td>Age of Empires: Castle Siege</td><td>Стратегия в стиле Age of Empires</td></tr>
+      <tr><td>9</td><td>Plants vs Zombies</td><td>Башенная защита с юмором</td></tr>
+      <tr><td>10</td><td>Mini Motor Racing</td><td>Стратегия гонок с прокачкой</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="category">
+  <h2>Головоломки и Казуальные</h2>
+  <button class="toggle-btn" data-target="casual-table">Показать</button>
+  <table id="casual-table" class="hidden">
+    <thead>
+      <tr><th>#</th><th>Игра</th><th>Описание</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Monument Valley</td><td>Красивые и умиротворяющие головоломки</td></tr>
+      <tr><td>2</td><td>Among Us</td><td>Социальная игра с дедукцией</td></tr>
+      <tr><td>3</td><td>Alto’s Odyssey</td><td>Бесконечный раннер с красивыми пейзажами</td></tr>
+      <tr><td>4</td><td>Two Dots</td><td>Захватывающая головоломка с цветами</td></tr>
+      <tr><td>5</td><td>Flow Free</td><td>Соединяй точки и решай пазлы</td></tr>
+      <tr><td>6</td><td>Cut the Rope</td><td>Логическая игра с милым монстром</td></tr>
+      <tr><td>7</td><td>Angry Birds 2</td><td>Классика среди казуальных игр</td></tr>
+      <tr><td>8</td><td>Paper.io 2</td><td>Простая, но затягивающая игра</td></tr>
+      <tr><td>9</td><td>2048</td><td>Сложи плитки до 2048</td></tr>
+      <tr><td>10</td><td>Happy Glass</td><td>Рисуй линии и наполни стакан</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="category">
+  <h2>RPG и Приключения</h2>
+  <button class="toggle-btn" data-target="rpg-table">Показать</button>
+  <table id="rpg-table" class="hidden">
+    <thead>
+      <tr><th>#</th><th>Игра</th><th>Описание</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Stardew Valley</td><td>Фермерский симулятор с RPG элементами</td></tr>
+      <tr><td>2</td><td>Dead Cells</td><td>Платформер с rogue-like механиками</td></tr>
+      <tr><td>3</td><td>The Room</td><td>Атмосферные головоломки</td></tr>
+      <tr><td>4</td><td>Final Fantasy Brave Exvius</td><td>Классическая JRPG на мобилках</td></tr>
+      <tr><td>5</td><td>Honkai Impact 3rd</td><td>Экшен-RPG с красивой графикой</td></tr>
+      <tr><td>6</td><td>Dragon Quest Walk</td><td>AR RPG с элементами прогулок</td></tr>
+      <tr><td>7</td><td>Epic Seven</td><td>Глубокая RPG с коллекционированием героев</td></tr>
+      <tr><td>8</td><td>Another Eden</td><td>Классическая JRPG с сюжетом</td></tr>
+      <tr><td>9</td><td>Pokemon Go</td><td>AR игра с ловлей покемонов</td></tr>
+      <tr><td>10</td><td>Gacha Life</td><td>Ролевая игра с коллекционированием персонажей</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  document.querySelectorAll('.toggle-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const table = document.getElementById(targetId);
+      if (table.classList.contains('hidden')) {
+        table.classList.remove('hidden');
+        button.textContent = 'Скрыть';
+      } else {
+        table.classList.add('hidden');
+        button.textContent = 'Показать';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
